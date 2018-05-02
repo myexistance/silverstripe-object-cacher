@@ -9,7 +9,7 @@
         "DataObject",
         "cache",
         "speed",
-        "performance",
+        "performance"
     ],
     "license": "BSD-3-Clause",
     "authors": [
