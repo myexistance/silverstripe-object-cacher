@@ -1,0 +1,28 @@
+{
+    "name": "sunnysideup/object-cacher",
+    "type": "silverstripe-module",
+    "description": "Cache data objects. Useful when you are working with large numbers and/or complex data objects that you need to access from various places in your code.",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "DataObject",
+        "cache",
+        "speed",
+        "performance",
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.6"
+    },
+    "extra": {
+        "installer-name": "object-cacher"
+    }
+}
