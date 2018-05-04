@@ -20,8 +20,8 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "~3.6",
-        "silverstripe/cms": "~3.6"
+        "silverstripe/framework": "~4.1",
+        "silverstripe/cms": "~4.1"
     },
     "extra": {
         "installer-name": "object-cacher"
