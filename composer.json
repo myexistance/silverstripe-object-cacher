@@ -8,6 +8,7 @@
         "Silverstripe",
         "DataObject",
         "cache",
+        "caching",
         "speed",
         "performance"
     ],
