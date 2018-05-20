@@ -1,11 +1,11 @@
 # Silverstripe object cacher module
-[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-object_cacher.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-object_cacher)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-object_cacher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-object_cacher/?branch=master)
-[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-object_cacher/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-object_cacher?branch=master)
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-object-cacher.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-object-cacher)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-object-cacher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-object-cacher/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-object-cacher/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-object-cacher?branch=master)
 
-[![Latest Stable Version](https://poser.pugx.org/sunnysideup/object_cacher/version)](https://packagist.org/packages/sunnysideup/object_cacher)
-[![License](https://poser.pugx.org/sunnysideup/object_cacher/license)](https://packagist.org/packages/sunnysideup/object_cacher)
-[![Monthly Downloads](https://poser.pugx.org/sunnysideup/object_cacher/d/monthly)](https://packagist.org/packages/sunnysideup/object_cacher)
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/object-cacher/version)](https://packagist.org/packages/sunnysideup/object-cacher)
+[![License](https://poser.pugx.org/sunnysideup/object-cacher/license)](https://packagist.org/packages/sunnysideup/object-cacher)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/object-cacher/d/monthly)](https://packagist.org/packages/sunnysideup/object-cacher)
 
 
 ## Documentation
@@ -14,7 +14,7 @@
 
  * [Developer Docs](docs/en/INDEX.md)
  * [User Guide](docs/en/userguide.md)
- * [API Docs](http://docs.ssmods.com/sunnysideup/object_cacher/classes.xhtml)
+ * [API Docs](http://docs.ssmods.com/sunnysideup/object-cacher/classes.xhtml)
 
 
 ## Requirements
@@ -35,19 +35,19 @@ See [composer.json](composer.json) for details
 
 
 ```
-composer require sunnysideup/object_cacher
+composer require sunnysideup/object-cacher
 ```
 
 ### Configuration
 
 
 
-In the `_config` folder you will find the `object_cacher.yml.example`
+In the `_config` folder you will find the `object-cacher.yml.example`
 file that shows options for the configuration of this module.
 
 We recommend that you:
 
-  1. copy these `object_cacher.yml.example` files into your
+  1. copy these `object-cacher.yml.example` files into your
 `mysite/_config` folder (where available - otherwise search for `private static $` in the module to see what can be configured)
   2. remove the .example extension,
   3. delete the lines you do not care about, and
